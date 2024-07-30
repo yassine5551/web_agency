@@ -18,8 +18,9 @@ function App() {
       <>
       <Header/>
       <Hero/>
-      {/* 
       <Clients/>
+      {/* 
+      
       <Community/>
       <About/>
       <Stats/>
