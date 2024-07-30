@@ -3,15 +3,16 @@ import hero from '../assets/hero.png'
 const Hero = () => {
   return (
     <>
-      <div className='bg-neutralSilver flex justify-around items-center h-[80vh]'>
+      <div className='pl-[1.5rem] bg-neutralSilver flex justify-around items-center h-[80vh]'>
         <div className='w-[60%]'>
-          <h1 className='text-7xl font-semibold text-secondary'>Lessons and insights <br /> <span className='text-shade'>from 8 years</span></h1>
-          <p>where to grow your business as a photographer: site or social media?</p>
-          <button>Register</button>
+          <h1 className=' text-7xl font-medium tracking-normal text-secondary mb-[2rem]'>Lessons and insights</h1>
+          <span className='text-shade text-7xl font-medium tracking-normal '>from 8 years</span>
+          <p className='text-secondary mt-[2rem]'>where to grow your business as a photographer: site or social media?</p>
+          <button className='mt-[2rem] bg-none border-none bg-shade hover:bg-green px-[2.2rem] py-[1rem] text-white rounded-md'>Register</button>
         </div>
-        <div>
-          <img src={hero} alt="" />
-        </div>
+        
+          <img src={hero} alt=""  className='w-[391px] h-[407px] object-cover'/> 
+        
       </div>
     </>
   )
