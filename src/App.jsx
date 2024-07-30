@@ -17,7 +17,8 @@ function App() {
   return (
       <>
       <Header/>
-      {/* <Hero/>
+      <Hero/>
+      {/* 
       <Clients/>
       <Community/>
       <About/>

@@ -3,8 +3,8 @@ import logo from '../assets/logo.png'
 const Header = () => {
   return (
     <>
-      <nav className='flex justify-between items-center py-[2rem]'>
-        <div><img src={logo} alt="" /></div>
+      <nav className='bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem]'>
+        <div><img src={logo} alt="" /></div>  
         
           <ul className='flex gap-[2rem] '>
           <li className='cursor-pointer hover:text-shade transition-all font-semibold'>Home</li>
