@@ -3,7 +3,7 @@ import hero from '../assets/hero.png'
 const Hero = () => {
   return (
     <>
-      <div className='pl-[1.5rem] bg-neutralSilver flex justify-around items-center h-[80vh]'>
+      <div className='pl-[1.5rem] bg-neutralSilver flex justify-around items-center h-[100vh]'>
         <div className='w-[60%]'>
           <h1 className=' text-7xl font-medium tracking-normal text-secondary mb-[2rem]'>Lessons and insights</h1>
           <span className='text-shade text-7xl font-medium tracking-normal '>from 8 years</span>

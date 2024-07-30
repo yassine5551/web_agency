@@ -19,9 +19,10 @@ function App() {
       <Header/>
       <Hero/>
       <Clients/>
+      <Community/>
       {/* 
       
-      <Community/>
+      
       <About/>
       <Stats/>
       <Info/>
