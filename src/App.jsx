@@ -21,11 +21,12 @@ function App() {
       <Clients/>
       <Community/>
       <About/>
+      <Stats/>
       {/* 
       
       
       
-      <Stats/>
+      
       <Info/>
       <InfoSec/>
       <Cards/>
