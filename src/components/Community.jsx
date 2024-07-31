@@ -7,10 +7,10 @@ const Community = () => {
   return (
     <>
       <div className="flex flex-col justify-center gap-9 items-center bg-white h-[100vh]">
-        <div className="flex justify-center items-center flex-col">
-          <h1 className="text-secondary text-3xl font-semibold">
+        <div className="flex justify-center items-center flex-col appear">
+          <h1 className="text-secondary text-3xl font-semibold ">
             Manage your entire community
-          </h1>
+          </h1> 
           <p className="text-secondary text-3xl font-semibold mb-[6px]">
             in a single system
           </p>
@@ -19,8 +19,8 @@ const Community = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center gap-[120px]">
-          <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col shadow-primary shadow-xl">
+        <div className="flex justify-center items-center gap-[120px] cas">
+          <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col shadow-primary shadow-xl rounded-xl">
             <div className="bg-lightGreen w-[35px] h-[35px] rounded-br-2xl rounded-sm relative mb-[20px]">
               <FontAwesomeIcon
                 icon={faUsers}
@@ -36,7 +36,7 @@ const Community = () => {
             </p>
           </div>
 
-          <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col flex-wrap shadow-primary shadow-xl">
+          <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col flex-wrap shadow-primary shadow-xl rounded-xl">
             <div className="bg-lightGreen  w-[35px] h-[35px] rounded-br-2xl rounded-sm relative mb-[20px]">
               <FontAwesomeIcon
                 icon={faBuilding}
@@ -52,7 +52,7 @@ const Community = () => {
             </p>
           </div>
 
-          <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col flex-wrap rounded-lg shadow-primary shadow-xl">
+          <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col flex-wrap  shadow-primary shadow-xl rounded-xl">
             <div className="bg-lightGreen w-[35px] h-[35px] rounded-br-2xl rounded-sm relative mb-[20px]">
               <FontAwesomeIcon
                 icon={faHandHoldingHand}

@@ -20,10 +20,11 @@ function App() {
       <Hero/>
       <Clients/>
       <Community/>
+      <About/>
       {/* 
       
       
-      <About/>
+      
       <Stats/>
       <Info/>
       <InfoSec/>
