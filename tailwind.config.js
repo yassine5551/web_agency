@@ -9,7 +9,8 @@ export default {
       info: '#2194f3',
       shade: '#43A046',
       green :'#008000',
-      white:'#FFFFFF'
+      white:'#FFFFFF',
+      lightGreen:'#e5f8e5'
       
     },
     extend: {},
