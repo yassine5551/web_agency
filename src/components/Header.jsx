@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 const Header = () => {
   return (
     <>
-      <nav className='bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   '>
+      <nav className=' z-[10] bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   '>
         <div><img src={logo} alt="" /></div>  
         
           <ul className='flex gap-[2rem] '>

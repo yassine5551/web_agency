@@ -10,7 +10,8 @@ export default {
       shade: '#43A046',
       green :'#008000',
       white:'#FFFFFF',
-      lightGreen:'#e5f8e5'
+      lightGreen:'#e5f8e5',
+      gray:'#808080'
       
     },
     extend: {},

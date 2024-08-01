@@ -22,15 +22,10 @@ function App() {
       <Community/>
       <About/>
       <Stats/>
-      {/* 
-      
-      
-      
-      
       <Info/>
       <InfoSec/>
       <Cards/>
-      <Footer/> */}
+      <Footer/> 
     </>
   )
 }
