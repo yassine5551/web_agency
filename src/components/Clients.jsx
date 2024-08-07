@@ -9,7 +9,7 @@ import client7 from "../assets/client7.png"
 const Clients = () => {
   return (
     <>
-    <div className='flex flex-col justify-center gap-9 items-center bg-white h-[50vh] mb-[250px]'>
+    <div className='flex flex-col justify-center gap-9 items-center bg-white h-[50vh] mb-[250px] md:mb-0'>
       <div className='flex justify-center items-center flex-col'>
         <h1 className='text-secondary text-3xl font-medium mb-[6px]'>Our Clients</h1>
         <p className='text-secondary font-light text-center'>We have been working with some Fortune 500+ clients</p>
