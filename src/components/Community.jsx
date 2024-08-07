@@ -6,12 +6,12 @@ import { faHandHoldingHand } from "@fortawesome/free-solid-svg-icons";
 const Community = () => {
   return (
     <>
-      <div className="flex flex-col justify-center gap-9 items-center bg-white h-[100vh]">
-        <div className="flex justify-center items-center flex-col appear">
-          <h1 className="text-secondary text-3xl font-semibold ">
+      <div className="flex flex-col justify-center gap-9 items-center bg-white h-[100vh] mb-[250px]">
+        <div className="flex justify-center items-center flex-col ">
+          <h1 className="text-secondary md:text-3xl text-4xl font-semibold text-center">
             Manage your entire community
           </h1> 
-          <p className="text-secondary text-3xl font-semibold mb-[6px]">
+          <p className="text-secondary md:text-3xl text-4xl font-semibold mb-[6px]">
             in a single system
           </p>
           <p className="text-secondary font-normal ">
@@ -19,7 +19,7 @@ const Community = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center gap-[120px] cas">
+        <div className="flex justify-center items-center gap-[120px]  flex-col">
           <div className="w-[250px] h-[250px]  flex justify-center items-center flex-col shadow-primary shadow-xl rounded-xl">
             <div className="bg-lightGreen w-[35px] h-[35px] rounded-br-2xl rounded-sm relative mb-[20px]">
               <FontAwesomeIcon
