@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <>
       <div className="flex flex-col justify-center gap-9 items-center bg-white h-[100vh]">
-        <div className="flex justify-center items-center flex-col appear">
+        <div className="flex justify-center items-center flex-col appear text-center">
           <h1 className="text-secondary text-3xl font-semibold ">
             Caring is the new marketing
           </h1>
