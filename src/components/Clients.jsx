@@ -14,7 +14,7 @@ const Clients = () => {
         <h1 className='text-secondary text-3xl font-medium mb-[6px]'>Our Clients</h1>
         <p className='text-secondary font-light text-center'>We have been working with some Fortune 500+ clients</p>
         </div>
-      <div className='flex justify-evenly items-center gap-5 md:gap-0'>
+      <div className='flex justify-evenly items-center gap-4 md:gap-0'>
         <img src={client1} alt="" className=''/>
         <img src={client2} alt="" className='md:ml-[10rem]'/>
         <img src={client3} alt="" className='md:ml-[10rem]'/>
