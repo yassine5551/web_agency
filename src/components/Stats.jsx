@@ -19,49 +19,49 @@ const Stats = () => {
             We reached here with our hard work and dedication
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="relative  px-[32px] flex flex-col items-start justify-center">
+        <div className="grid grid-cols-2 gap-2 md:gap-4">
+          <div className="relative  px-[16px] md:px-[32px] flex flex-col items-start justify-center">
             <FontAwesomeIcon
               icon={faUsers}
-              className="text-shade  text-2xl absolute left-0"
+              className="text-shade  text-lg md:text-2xl absolute left-0"
             />
             <div className="ml-4">
-              <p className="text-2xl font-semibold text-secondary ">
+              <p className="text-lg md:text-2xl font-semibold text-secondary ">
                 2,245,341
               </p>
               <span>Members</span>
             </div>
           </div>
-          <div className="ml-[50px] relative px-[32px] flex flex-col items-start justify-center">
+          <div className="ml-[50px] relative px-[16px] md:px-[32px] flex flex-col items-start justify-center">
             <FontAwesomeIcon
               icon={faHandHoldingHand}
-              className="text-shade  text-2xl absolute left-0"
+              className="text-shade  text-lg md:text-2xl absolute left-0"
             />
             <div className="ml-4">
-              <p className="text-2xl font-semibold text-secondary">46,365</p>
+              <p className="text-lg md:text-2xl font-semibold text-secondary">46,365</p>
 
               <span>Clubs</span>
             </div>
           </div>
-          <div className="relative px-[32px] flex flex-col items-start justify-center">
+          <div className="relative px-[16px] md:px-[32px] flex flex-col items-start justify-center">
             <FontAwesomeIcon
               icon={faHandPointUp}
-              className="text-shade  text-2xl absolute left-0"
+              className="text-shade  text-lg md:text-2xl absolute left-0"
             />
             <div className="ml-4">
 
-            <p className="text-2xl font-semibold text-secondary">828,867</p>
+            <p className="text-lg text-start md:text-2xl font-semibold text-secondary">828,867</p>
             <span>Event Bookings</span>
             </div>
           </div>
-          <div className="ml-[50px] relative px-[32px] flex flex-col items-start justify-center">
+          <div className="ml-[50px] relative px-[16px] md:px-[32px] flex flex-col items-start justify-center">
             <FontAwesomeIcon
               icon={faCreditCard}
-              className="text-shade  text-2xl absolute left-0"
+              className="text-shade  text-lg md:text-2xl absolute left-0"
             />
             <div className="ml-4">
 
-            <p className="text-2xl font-semibold text-secondary">1,926,436</p>
+            <p className="text-lg md:text-2xl font-semibold text-secondary">1,926,436</p>
             <span>Payments</span>
             </div>
           </div>
