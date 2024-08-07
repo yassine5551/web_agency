@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Cards = () => {
   return (
     <>
-      <div className="flex flex-col justify-center gap-9 items-center bg-white h-[100vh]">
-        <div className="flex justify-center items-center flex-col appear text-center">
+      <div className="flex flex-col justify-center gap-9 items-center bg-white h-[100vh] md:mb-0 mb-[300px]">
+        <div className="flex justify-center items-center flex-col  text-center">
           <h1 className="text-secondary text-3xl font-semibold ">
             Caring is the new marketing
           </h1>
@@ -18,7 +18,7 @@ const Cards = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center gap-6 cas">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-[100px] md:gap-6  ">
           <div className="w-[350px] h-[250px] relative">
             <img
               src="https://images.unsplash.com/photo-1640955014216-75201056c829?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGN8ZW58MHx8MHx8fDA%3D"
