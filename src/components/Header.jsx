@@ -19,8 +19,8 @@ const Header = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 1.1,
-        ease: "easeIn",
+        duration: 0.5,
+        ease: "easeInOut",
         staggerChildren: 0.4,
       },
     },
@@ -34,9 +34,9 @@ const Header = () => {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 1.5,
+        duration: 0.6,
         when: "beforeChildren",
-        delay: 1,
+        delay: 0.8,
       },
     },
   };
