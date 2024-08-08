@@ -11,67 +11,87 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   const variantNav = {
-    hidden :{
-      y:-100,
-      opacity:0
+    hidden: {
+      y: -100,
+      opacity: 0,
     },
-    visible : {
-      y:0,
-      opacity:1,
-      transition :{
-        duration:1.1,
-        ease:"easeIn",
-        staggerChildren:0.4
-      }
-    }
-  }
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 1.1,
+        ease: "easeIn",
+        staggerChildren: 0.4,
+      },
+    },
+  };
   const variantChildren = {
-    hidden :{
-      opacity :0,
-      x:-80,
-      
+    hidden: {
+      opacity: 0,
+      x: -80,
     },
-    visible:{
-      opacity:1,
-      x:0,
-      transition:{
-        duration:1.5,
-        when:'beforeChildren',
-        delay:1,
-        
-      }
-    }
-  }
-  
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 1.5,
+        when: "beforeChildren",
+        delay: 1,
+      },
+    },
+  };
+
   return (
     <>
-      <motion.nav variants={variantNav} initial="hidden" animate="visible"  className="z-[10000] bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   ">
-        <motion.div variants={variantChildren} initial="hidden" animate="visible">
+      <motion.nav
+        variants={variantNav}
+        initial="hidden"
+        animate="visible"
+        className="z-[10000] bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   "
+      >
+        <motion.div
+          variants={variantChildren}
+          initial="hidden"
+          animate="visible"
+        >
           <img src={logo} alt="" />
         </motion.div>
 
-        <motion.ul variants={variantChildren} initial='hidden' animate="visible" className="md:flex gap-[2rem] hidden">
+        <motion.ul
+          variants={variantChildren}
+          initial="hidden"
+          animate="visible"
+          className="md:flex gap-[2rem] hidden"
+        >
           <li className="cursor-pointer hover:text-shade transition-all font-semibold">
             Home
           </li>
-          <li  className="cursor-pointer hover:text-shade transition-all">
+          <li className="cursor-pointer hover:text-shade transition-all">
             Service
           </li>
-          <li  className="cursor-pointer hover:text-shade transition-all">
+          <li className="cursor-pointer hover:text-shade transition-all">
             Feature
           </li>
-          <li  className="cursor-pointer hover:text-shade transition-all">
+          <li className="cursor-pointer hover:text-shade transition-all">
             Product
           </li>
-          <li  className="cursor-pointer hover:text-shade transition-all">
+          <li className="cursor-pointer hover:text-shade transition-all">
             Testimonial
           </li>
-          <li  className="cursor-pointer hover:text-shade transition-all">
+          <li className="cursor-pointer hover:text-shade transition-all">
             FAQ
           </li>
         </motion.ul>
 
-        <motion.div initial={{opacity:0,scale:1.1}} animate={{opacity:1,scale:1,transition:{duration:2,delay:1.2  }}} className="md:flex hidden">
+        <motion.div
+          initial={{ opacity: 0, scale: 1.1 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            transition: { duration: 2, delay: 1.2 },
+          }}
+          className="md:flex hidden"
+        >
           <button className="bg-none border-none md:px-[20px] px-3 py-1 md:py-[10px] text-shade">
             Login
           </button>
