@@ -42,22 +42,7 @@ const Header = () => {
       }
     }
   }
-  const variantLinks= {
-    hidden :{
-      opacity:0,
-      y:-50
-    },
-    visible :{
-      opacity:1,
-      y:0,
-      transition :{
-        duration:2.5,
-        delay:1,
-        ease:'easeIn'
-      }
-    }
-    
-  }
+  
   return (
     <>
       <motion.nav variants={variantNav} initial="hidden" animate="visible"  className="z-[10000] bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   ">
