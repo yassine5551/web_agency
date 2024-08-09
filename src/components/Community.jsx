@@ -5,7 +5,7 @@ import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faHandHoldingHand } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 
-export const fadeUp = (delay) => {
+export  const fadeUp = (delay) => {
   return {
     initial: {
       y: 50,
