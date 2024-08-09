@@ -47,7 +47,7 @@ const Community = () => {
 
         <div className="flex justify-center items-center gap-[120px]  flex-col md:flex-row">
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: -50, opacity: 0 }}
             whileInView={{
               x: 0,
               opacity: 1,
@@ -95,7 +95,7 @@ const Community = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: 50, opacity: 0 }}
             whileInView={{
               x: 0,
               opacity: 1,

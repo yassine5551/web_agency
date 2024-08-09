@@ -28,7 +28,7 @@ const Header = () => {
   const variantChildren = {
     hidden: {
       opacity: 0,
-      x: -80,
+      x: -50,
     },
     visible: {
       opacity: 1,
@@ -47,7 +47,7 @@ const Header = () => {
         variants={variantNav}
         initial="hidden"
         animate="visible"
-        className="z-[10000] bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   "
+        className="z-[10000]  bg-neutralSilver flex justify-between items-center py-[2rem] px-[2.5rem] fixed top-0 w-full h-[32px]   "
       >
         <motion.div
           variants={variantChildren}

@@ -32,7 +32,7 @@ const Cards = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-[100px] md:gap-6  ">
           <motion.div
-            initial={{ x: -100, opacity: 0 }}
+            initial={{ x: -30, opacity: 0 }}
             whileInView={{
               x: 0,
               opacity: 1,
@@ -93,7 +93,7 @@ const Cards = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: 30, opacity: 0 }}
             whileInView={{
               x: 0,
               opacity: 1,

@@ -5,7 +5,7 @@ import {motion} from "framer-motion";
 const Hero = () => {
   const variantHero = {
     hidden :{
-      x:-100,
+      x:-50,
       opacity:0
     },
     visible : {
@@ -23,7 +23,7 @@ const Hero = () => {
   }
   const variantHeroImg = {
     hidden :{
-      x:100,
+      x:50,
       opacity:0
     },
     visible : {
@@ -41,7 +41,7 @@ const Hero = () => {
   }
   return (
     <>
-      <div className='pl-[1.5rem] bg-neutralSilver flex flex-col-reverse md:flex-row justify-around items-center h-[100vh] mt-[32px] '>
+      <div className=' pl-[1.5rem] bg-neutralSilver flex flex-col-reverse md:flex-row justify-around items-center h-[100vh] mt-[32px] '>
         <motion.div variants={variantHero} initial="hidden" animate="visible" className='md:w-[60%] w-[100%]'>
           <h1 className=' md:text-7xl text-5xl font-medium tracking-normal text-secondary mb-[2rem]'>Lessons and insights</h1>
           <span className='text-shade md:text-7xl text-5xl font-medium tracking-normal '>from 8 years</span>

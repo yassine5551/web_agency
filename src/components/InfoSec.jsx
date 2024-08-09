@@ -14,7 +14,7 @@ const InfoSec = () => {
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 bg-neutralSilver md:mb-0 mb-[250px]">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1,transition:{duration:1.5,delay:1}}} className="relative h-64  overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
+            <motion.div initial={{x:-30,opacity:0}} whileInView={{x:0,opacity:1,transition:{duration:1.5,delay:1}}} className="relative h-64  overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
               <img
                 alt=""
                 src="https://images.unsplash.com/photo-1674027326252-a09b3473e18f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYnNpdGVzfGVufDB8fDB8fHww"
